@@ -116,6 +116,17 @@
 		</plugins>
 	</build>
 
-	
-
+	<repositories>
+    <repository>
+      <name>Nexus Releases</name>
+      <id>maven-releases</id>
+      <url>http://13.127.9.75:8081/repository/maven-releases/</url>
+    </repository>
+		
+	<repository>
+      <name>Nexus Snapshot</name>
+      <id>maven-snapshot</id>
+      <url>http://13.127.9.75:8081/repository/maven-snapshots/</url>
+    </repository>
+	</repositories>
 </project>
